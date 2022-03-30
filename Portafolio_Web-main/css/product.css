@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    flex-flow: inherit;
+    width: 100%;
+}
+
+.form{
+    width: 450px;
+    margin: auto;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.4); 
+    padding: 10px 20px;
+    backdrop-filter: blur(9px);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#boton {
+    color: #ffffff;
+    background-color: black;
+    border-radius: 0%;
+    font-style: italic;
+    font-weight: bolder;
+    width: 90%;
+    margin-top: 15px;
+}
+
+#boton:hover {
+    color: #212529;
+    background-color: var(--header-bg-color);
+    border-color: #cca000;
+}
+
+@media (max-width:480px) {
+    .form{
+        width: 100%;
+    }
+}
+
