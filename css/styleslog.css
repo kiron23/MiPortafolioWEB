@@ -1,0 +1,64 @@
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: black;
+  border-radius: 0%;
+  font-style: italic;
+  font-weight: bolder;
+  width: 130px;
+  border-color: #ffc800;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: brown;
+  border-color: #cca000;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #212529;
+  background-color: var(--header-bg-color);
+  border-color: #cca000;
+  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+}
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #cca000;
+  border-color: #bf9600;
+}
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
+}
+.btn-primary:disabled,
+.btn-primary.disabled {
+  color: #ffffff;
+  background-color: var(--button-bg-color);
+  border-color: var(--button-bg-color);}
