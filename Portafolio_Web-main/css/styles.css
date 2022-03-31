@@ -11,6 +11,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
 .row { /*metodo para que la imagen de fondo se vea borrosa */
   background: rgba(255, 255, 255, 0.4); 
   backdrop-filter: blur(9px);
@@ -194,7 +200,6 @@ filter: saturate(180%);
     width: 100%;
   }
 }
-
 
 h1,
 .h1 {
